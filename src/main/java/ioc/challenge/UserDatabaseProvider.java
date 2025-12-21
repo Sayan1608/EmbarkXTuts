@@ -1,6 +1,6 @@
-package com.loose.coupling;
+package ioc.challenge;
 
-public class UserDatabaseProvider implements UserDataProvider{
+public class UserDatabaseProvider implements UserDataProvider {
 
     @Override
     public String getUserData() {

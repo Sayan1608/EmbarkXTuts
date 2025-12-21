@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+package com.tight.coupling;
 
 public class UserDatabase {
+
+    public String getUserDatabase(){
+        return "User Details from Database.";
+    }
 }

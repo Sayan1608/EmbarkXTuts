@@ -1,4 +1,4 @@
-package com.loose.coupling;
+package ioc.challenge;
 
 public class UserManager {
     // achieved loose coupling through interface
