@@ -1,5 +1,6 @@
 package com.example.componentscan;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
@@ -7,7 +8,11 @@ import java.math.BigDecimal;
 @Component
 public class Employee {
     private Long empId;
+//    @Value("Hello")
+    @Value("${java.home}")
     private String empName;
+
+    @Value("#{23.56*67.80}")
     private BigDecimal salary;
 
     public Long getEmpId() {
